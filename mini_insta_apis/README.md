@@ -4,7 +4,7 @@ A backend project built to practice creating Instagram-style APIs, handling imag
 
 ## 🚀 Project Overview
 
-In this project, I created two Instagram APIs:
+In this project, I created two Instagram APIs: 
 
 * **POST API** — To create a new post.
 * **GET API** — To fetch posts.
