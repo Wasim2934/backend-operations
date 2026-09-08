@@ -9,9 +9,9 @@ router.post(
 	"/create",
 	upload.single("image"),
 	createPost
-);
-
-router.get(
+);                
+   
+router.get( 
 	"/getPosts",
 	getAllPosts
 );
