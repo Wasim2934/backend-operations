@@ -95,8 +95,6 @@ const newRefreshTokenRoute = async (req, res) => {
         const decoded = verifyRefreshToken(refreshToken);
         const user = await userModel.findById(decoded.id);
 
-
-
         if (refreshToken !== user.refreshToken) {
             user.refreshToken = null;
             await user.save();
