@@ -33,7 +33,6 @@ export default function useApi() {
                 error.config.headers.Authorization = `Bearer ${res.data.accessToken}`
 
                 // it means ke jo api request fail hui thi which is /api/auth/me isko again execute karo but iss bar access token ke sath 👇
-
                 return axios(error.config) 
             }
             return Promise.reject(error)
