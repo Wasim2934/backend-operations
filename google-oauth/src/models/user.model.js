@@ -1,7 +1,6 @@
 import mongoose from "mongoose"
 
-
-
+// Deefine the user schema
 const userSchema = new mongoose.Schema({
     fullname: {
         type: String,
